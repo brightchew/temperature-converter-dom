@@ -1,0 +1,58 @@
+body {
+	text-align: center;
+}
+
+#data {
+
+	width: 600px;
+	height: 80px;
+	text-align: center;
+	font-size: 3em;
+}
+
+div {
+
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.main_container {
+
+				max-width: 800px;
+				}
+				
+
+h1 {
+				color: grey;
+				text-align: center;
+				font-size: 2em;
+	}
+
+.userInput {
+ 
+ background-color: grey;
+	margin-right: auto;
+    margin-left: auto;
+	width: 600px;
+	height: 100px;
+			}
+
+.display {
+
+	width: 800px;
+	height: 200px;
+	background-color: red;
+		 }
+
+.button {
+
+	display: inline-block;
+}
+
+#result {
+	width: 800px;
+	height: 100px;
+	background-color: red;
+	text-align: center;
+	font-size: 1em;
+}

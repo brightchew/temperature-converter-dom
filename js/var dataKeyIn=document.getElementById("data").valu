@@ -1,0 +1,11 @@
+var dataKeyIn=document.getElementById("data").value
+if (document.getElementById("far").checked){
+var c=(dataKeyIn-32)*5/9;
+console.log("temperature is",c,"Celis");
+document.getElementById("result").textContent=c
+}
+else { var f=9*dataKeyIn/5+32;
+
+console.log("temperature is",f,"far");
+document.getElementById("result").textContent=f
+}
